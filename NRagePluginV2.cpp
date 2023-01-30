@@ -177,7 +177,7 @@ EXPORT void CALL DllAbout ( HWND hParent )
     LoadString( g_hResourceDLL, IDS_DLG_ABOUT_TITLE, tszTitle, DEFAULT_BUFFER );
 
     TCHAR szText[DEFAULT_BUFFER * 4] = _T(VER_FILE_DESCRIPTION_STR) _T("\n\n") \
-        _T("For dev go to:  >>https://project64.emulation64.com/dev<<\n\n") \
+        _T("For dev go to:  >>https://github.com/pj64team/Project64-Legacy<<\n\n") \
         _T("Version ") VER_FILE_VERSION_STR _T(" (") _T(__DATE__) _T(")\n") \
         _T("Done by N-Rage and Project64Team\n") \
         _T("\n") \
